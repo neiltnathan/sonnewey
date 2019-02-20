@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Sonnewey productions - creative photo and videography</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/modal-video.min.css">
+
+	<link href="../css/lightbox.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600" rel="stylesheet">
+	<meta name="robots" content="noindex">
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+	<header class="header" id="top">
+
+		<div>
+
+			<ul class="flag-menu">
+
+				<li class="flag-menu__item">
+					<a title="Nederlandse Taal" href="contact-us-nl.html">
+						<img src="img/Netherlands-Flag-icon2.png" alt="Netherlands Flag"></a>
+				</li>
+				<li class="flag-menu__item">
+					<a title="English Language" href="contact-us-en.html">
+						<img src="img/United-Kingdom-flag-icon2.png" alt="UK flag"></a>
+				</li>
+			</ul>
+
+		</div>
+
+		<div>
+			<nav>
+
+				<ul class="ul_main-nav">
+
+					<li class="main-nav">
+
+						<a href="about-us-en.html">
+
+							<svg class="main-nav__icon ">
+								<use xlink:href="img/sprite.svg#icon-user"></use>
+							</svg>
+							<span class="main-nav__icon-text ">ABOUT US</span>
+						</a>
+					</li>
+
+					<li class="main-nav">
+						<a href="index.html#foto_services">
+
+							<svg class="main-nav__icon ">
+								<use xlink:href="img/sprite.svg#icon-camera3"></use>
+							</svg>
+							<span class="main-nav__icon-text ">PHOTO</span>
+						</a>
+
+					</li>
+					<li class="main-nav">
+						<a href="index.html#video_services">
+							<svg class="main-nav__icon ">
+								<use xlink:href="img/sprite.svg#icon-video-camera"></use>
+							</svg>
+							<span class="main-nav__icon-text ">VIDEO</span>
+						</a>
+
+					</li>
+
+					<li class="main-nav">
+						<a href="contact-us-en.html">
+
+							<svg class="main-nav__icon">
+								<use xlink:href="img/sprite.svg#icon-envelop"></use>
+							</svg>
+							<span class="main-nav__icon-text ">CONTACT</span>
+						</a>
+					</li>
+
+				</ul>
+
+			</nav>
+		</div>
+
+	</header>
+
+	<div class="contact-us">
+		<a id="contact_us"></a>
+
+		<figure class="contact-us__item contact-us__item--1">
+
+			<img src="img/sonnewey-productions-en.png" alt="sonnewey logo" class="contact-us__img">
+
+		</figure>
+
+		<div class="contact-us__item contact-us__item--2 contact-us__text">
+
+			<a id="contact">&nbsp;</a>
+
+			<p class='translation'>ENGLISH TRANSLATION REQUIRED </p>
+			<h2>CONTACT</h2>
+			<p>Ik vind het leuk om een reactie van je te krijgen op mijn werk. En ik wil ook graag met je doornemen hoe
+				ik iets aparts voor je kan maken. Laat je naam en emailadres achter en omschrijf waar je zelf aan zit
+				te denken. Je zal zien dat we samen iets moois kunnen maken!
+			</p>
+
+			<div id="form-messages"></div>
+
+			<form id="ajax-contact" method="post" action="mailer.php">
+				<div class="field">
+					<label for="name">Naam:</label>
+					<input type="text" id="name" name="name" placeholder="verplicht" required>
+				</div>
+
+				<div class="field">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" placeholder="verplicht" required>
+				</div>
+
+				<div class="field">
+					<label for="message">Bericht:</label>
+					<textarea id="message" name="message" placeholder="verplicht" required></textarea>
+				</div>
+
+				<div class="field">
+					<button type="submit">Verzenden</button>
+				</div>
+			</form>
+
+		</div>
+
+	</div>
+</div>
+</body>
+
+</html>

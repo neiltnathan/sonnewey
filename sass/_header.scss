@@ -1,0 +1,148 @@
+.ul_main-nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: whitesmoke;
+  background-color: white;
+
+  z-index: 1500;
+}
+
+li.main-nav {
+  margin-top: 15px;
+  margin-right: 25px;
+  margin-left: 25px;
+
+  line-height: 40px;
+  background-color: white;
+  max-width: 98%;
+}
+
+li.main-nav {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.main-nav__icon {
+  fill: #999;
+  width: 4.2rem;
+  height: 4.2rem;
+  margin-top: -0.8rem;
+
+  @media screen and (max-width: 1200px) {
+    width: 3.7rem;
+    height: 3.7rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+.main-nav__icon:hover {
+  fill: #776356;
+}
+.main-nav__icon-text {
+  display: block;
+
+  margin-top: -2.5rem;
+  //margin-bottom: -1.8rem;
+  text-transform: uppercase;
+
+  font-size: 1rem;
+  font-weight: 300;
+  color: #999;
+}
+
+.main-nav__icon-text:hover {
+  color: #776356;
+}
+
+
+
+//main nav icons on gallery pages on home page
+
+.main-nav__icon-gallery {
+  fill: white;
+  width: 6.2rem;
+  height: 6.2rem;
+  margin-top: -0.8rem;
+  //background-color: black;
+  background: rgba(0, 0, 0, 0.4);
+  padding:10px;
+
+  margin-bottom:0px;
+
+  @media screen and (max-width: 1200px) {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+}
+
+.main-nav__icon-gallery:hover {
+  fill: #776356;
+}
+
+
+
+.main-nav__icon-text {
+  display: block;
+
+  margin-top: -2.5rem;
+  //margin-bottom: -1.8rem;
+  text-transform: uppercase;
+
+  font-size: 1rem;
+  font-weight: 300;
+  color: #999;
+}
+
+.main-nav__icon-text:hover {
+  color: #776356;
+}
+
+
+.flag-menu {
+  list-style: none;
+  margin: 2rem 12.5% -6rem 0;
+  padding: 0;
+  display: flex;
+  //flex-wrap: wrap;
+  justify-content: flex-end;
+
+  //overflow: hidden;
+  //position: fixed;
+  //top: 1.5rem;
+  //right: 12.5%;
+
+  background-color: white;
+
+  z-index: 1500;
+
+
+  &__item {
+
+    margin-left: 1rem;
+
+    & > a {
+
+      & > img {
+        width: 85%;
+      }
+
+    }
+  }
+
+}
+
+
+
